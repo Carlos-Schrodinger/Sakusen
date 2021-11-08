@@ -2,6 +2,6 @@
 
 require_once("struct/router.php");
 
-get('/', 'controllers/Auth/login.php');
+get('/auth/authenticate', 'Controllers/Auth/login.php');
 
 ?>
